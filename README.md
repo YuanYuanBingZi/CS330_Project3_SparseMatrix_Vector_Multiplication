@@ -8,9 +8,9 @@ This project implements a sparse matrix-vector multiplication (SpMV) in C using 
 - **Floating-Point Precision Handling**: Special attention is given to handling floating-point precision errors, ensuring the results are consistent with the provided solution, within a reasonable tolerance.
 
 ## File Descriptions
-- **A.mtx**: The input sparse matrix in Matrix Market format.
-- **x.mtx**: The input vector to be multiplied by the matrix.
-- **ans.mtx**: The expected result of the multiplication, used for comparison.
+- `A.mtx`: The input sparse matrix in Matrix Market format.
+- `x.mtx`: The input vector to be multiplied by the matrix.
+- `ans.mtx`: The expected result of the multiplication, used for comparison.
 
 ## Compilation and Execution
 To compile the project, use the provided Makefile:
